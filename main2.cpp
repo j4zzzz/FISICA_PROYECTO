@@ -1,14 +1,4 @@
-/**
- * Simulación de Física Estática: Plano Inclinado con Polea y Sube y Baja (Palanca)
- * INTEGRACION FINAL
- *
- * Modificaciones en SeesawSimulator:
- * 1. Distancias (distP1, distP2) son ahora números enteros.
- * 2. Se asegura que la "Respuesta Correcta" (Peso P2) tenga un máximo de 4 decimales.
- * 3. Se calcula y almacena la respuesta correcta (correctWeightP2) al inicio del juego.
- * 4. La comprobación de victoria usa la respuesta precalculada y la tolerancia EPSILON.
- * * Requiere SFML >= 2.5
- */
+
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
@@ -1267,4 +1257,5 @@ int main() {
     }
 
     return 0;
+
 }
